@@ -10,7 +10,7 @@ import { SigninComponent } from './home/signin/signin.component';
 const routes: Routes = [
     { 
         path: '', 
-        component: SigninComponent;
+        component: SigninComponent
     },
     { 
         path: 'user/:userName', 
