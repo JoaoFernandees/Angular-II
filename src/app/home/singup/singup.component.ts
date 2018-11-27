@@ -10,7 +10,8 @@ import { PlatformDetectorService } from 'src/app/core/platform-detector/platform
 
 @Component({
 
-    templateUrl: './singup.component.html'
+    templateUrl: './singup.component.html',
+    providers: [ UserNotTakenValidatorService ]
 })
 
 export class SingUpComponent implements OnInit{
